@@ -29,7 +29,7 @@
             >;
         };
 
-        layer_1 {
+        lower_layer {
             bindings = <
 &bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans  &trans                    &trans          &trans          &trans        &trans           &trans         &trans
 &trans      &trans      &trans  &trans  &trans  &trans                    &trans          &trans          &trans        &trans           &trans         &trans
