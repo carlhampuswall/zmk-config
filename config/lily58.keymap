@@ -31,11 +31,11 @@
 
         layer_1 {
             bindings = <
-&bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans  &bt BT_CLR                &trans    &trans    &trans  &trans     &trans         &trans
-&trans      &trans      &trans  &trans  &trans  &trans                    &trans    &trans    &trans  &trans     &trans         &trans
-&trans      &trans      &trans  &trans  &trans  &trans                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans         &trans
-&trans      &trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &kp BACKSLASH  &trans
-                                &trans  &trans  &trans  &trans    &trans  &kp DEL   &trans    &trans
+&bt BT_PRV  &bt BT_NXT  &trans  &trans  &sys_reset  &bt BT_CLR                &trans    &trans    &trans  &trans     &trans         &trans
+&trans      &trans      &trans  &trans  &trans      &trans                    &trans    &trans    &trans  &trans     &trans         &trans
+&trans      &trans      &trans  &trans  &trans      &trans                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans         &trans
+&trans      &trans      &trans  &trans  &trans      &trans  &trans    &trans  &trans    &trans    &trans  &trans     &kp BACKSLASH  &trans
+                                &trans  &trans      &trans  &trans    &trans  &kp DEL   &trans    &trans
             >;
         };
 
